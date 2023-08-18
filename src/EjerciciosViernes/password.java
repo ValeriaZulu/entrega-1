@@ -11,13 +11,13 @@ public class password {
         String userPassword;
 
         Scanner myscanner = new Scanner(System.in);
-        
+
         do {
             System.out.println("Ingrese el usuario");
             myUser=myscanner.nextLine();
 
             System.out.println("Ingrese la contraseña");
-            userPassword=myscanner.next();
+            userPassword=myscanner.nextLine();
         } while ((!myUser.equals(USER))&&(!userPassword.equals(PASSWORD)));
        
         
